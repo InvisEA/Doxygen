@@ -1,0 +1,45 @@
+﻿Build started 25.03.2014 15:59:13.
+     1>Project "C:\Test\WpfTest\doxygen\doxygen\doxygen.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Test\WpfTest\doxygen\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\doxygen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\doxygen.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\doxygen.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Users\Студент\Desktop\Doxyden\Main.cpp" "..\..\..\..\Users\Студент\Desktop\Doxyden\Sortirovka_puzirkom.cpp" "..\..\..\..\Users\Студент\Desktop\Doxyden\Sortirovka_sliyaniyem.cpp"
+         Sortirovka_sliyaniyem.cpp
+         Sortirovka_puzirkom.cpp
+     1>c:\users\студент\desktop\doxyden\sortirovka_puzirkom.cpp(13): warning C4101: 'j' : unreferenced local variable
+         Main.cpp
+     1>c:\users\студент\desktop\doxyden\main.cpp(15): warning C4101: 'min' : unreferenced local variable
+     1>c:\users\студент\desktop\doxyden\main.cpp(15): warning C4101: 'f' : unreferenced local variable
+     1>c:\users\студент\desktop\doxyden\main.cpp(17): warning C4101: 'temp' : unreferenced local variable
+     1>c:\users\студент\desktop\doxyden\main.cpp(15): warning C4101: 'j' : unreferenced local variable
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\doxygen.exe.embed.manifest.res" Debug\doxygen_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Test\WpfTest\doxygen\Debug\doxygen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\doxygen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Test\WpfTest\doxygen\Debug\doxygen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Test\WpfTest\doxygen\Debug\doxygen.lib" /MACHINE:X86 Debug\doxygen.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\Sortirovka_puzirkom.obj
+         Debug\Sortirovka_sliyaniyem.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\doxygen.exe.embed.manifest" /manifest Debug\doxygen.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\doxygen.exe.embed.manifest.res" Debug\doxygen_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Test\WpfTest\doxygen\Debug\doxygen.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\doxygen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Test\WpfTest\doxygen\Debug\doxygen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Test\WpfTest\doxygen\Debug\doxygen.lib" /MACHINE:X86 Debug\doxygen.exe.embed.manifest.res
+         Debug\Main.obj
+         Debug\Sortirovka_puzirkom.obj
+         Debug\Sortirovka_sliyaniyem.obj
+         Debug\stdafx.obj
+         doxygen.vcxproj -> C:\Test\WpfTest\doxygen\Debug\doxygen.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\doxygen.unsuccessfulbuild".
+         Touching "Debug\doxygen.lastbuildstate".
+     1>Done Building Project "C:\Test\WpfTest\doxygen\doxygen\doxygen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.07
